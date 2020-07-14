@@ -10,7 +10,7 @@ To run: double click on the .mlapp file.
 
 ![Image of package](https://github.com/AhmetTavli/Unit-Commitment-and-Economic-Dispatch/blob/master/install_pack.png)
 
-## Demonstration
+## Demonstration
 
 ![main_screen](https://github.com/AhmetTavli/Unit-Commitment-and-Economic-Dispatch/blob/master/main_screen.png)
 
@@ -30,12 +30,12 @@ To see the summary:
 
 ![summary](https://github.com/AhmetTavli/Unit-Commitment-and-Economic-Dispatch/blob/master/uc_and_ed.png)
 
-## Theory
+## Theory
 
 Economic Dispatch Model:
 
-$$\text{minimize}\sum_{g,t}^{} B_{g}P_{g,t}
+`$$` \text{minimize}\sum_{g,t}^{} B_{g}P_{g,t} `$$`
 
 subject to
 
-$$\underline{P_{g}} \leq P_{g,t} \leq  $$
+`$$` \underline{P_{g}} \leq P_{g,t} \leq  `$$`
