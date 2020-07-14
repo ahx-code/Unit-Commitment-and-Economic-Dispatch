@@ -12,8 +12,6 @@ To run: double click on the .mlapp file.
 
 ## Demonstration
 
-![main_screen](https://github.com/AhmetTavli/Unit-Commitment-and-Economic-Dispatch/blob/master/main_screen.png)
-
 Open example [excel](https://github.com/AhmetTavli/Unit-Commitment-and-Economic-Dispatch/blob/master/project.xlsx)
 
 ![main_screen_excel](https://github.com/AhmetTavli/Unit-Commitment-and-Economic-Dispatch/blob/master/main_screen_excel.png)
@@ -34,8 +32,10 @@ To see the summary:
 
 Economic Dispatch Model:
 
-`$$` \text{minimize}\sum_{g,t}^{} B_{g}P_{g,t} `$$`
+<img src="https://i.upmath.me/svg/%C2%A0%5Ctext%7Bminimize%7D%5Csum_%7Bg%2Ct%7D%5E%7B%7D%20B_%7Bg%7DP_%7Bg%2Ct%7D%20" alt=" \text{minimize}\sum_{g,t}^{} B_{g}P_{g,t} " />
 
 subject to
 
-`$$` \underline{P_{g}} \leq P_{g,t} \leq  `$$`
+<img src="https://i.upmath.me/svg/%20%5Cunderline%7BP_%7Bg%7D%7D%20%5Cleq%20P_%7Bg%2Ct%7D%20%5Cleq%20%5Coverline%7BP_%7Bg%7D%7D%20%5Cquad%5Cforall%20g%5C%20%5Cforall%20t%C2%A0" alt=" \underline{P_{g}} \leq P_{g,t} \leq \overline{P_{g}} \quad\forall g\ \forall t " />
+
+<img src="https://i.upmath.me/svg/%20%5Csum_%7Bg%7D%5E%7B%7D%20P_%7Bg%2Ct%7D%20%3D%20D_%7Bt%7D%20%5Cquad%20%5Cforall%20t%20" alt=" \sum_{g}^{} P_{g,t} = D_{t} \quad \forall t " />
