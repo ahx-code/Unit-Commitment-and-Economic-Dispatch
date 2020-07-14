@@ -53,3 +53,7 @@ subject to
 s_{g,t}-h_{g,t}=u_{g,t}-u_{g,t-1}\quad\forall g\ \forall t\\\\
 \sum_{g}\overline{P_{g}}u_{g,t}\geq D_{t}+R_{t}\quad\forall t" />
 
+## Contributing :thought_balloon:
+Pull requests are welcome.
+
+For major changes, please open an issue, then discuss what you would like to change.
